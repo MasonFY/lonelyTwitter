@@ -2,8 +2,10 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
+import static android.R.attr.data;
+
 /**
- * Created by watts1 on 9/13/16.
+ * Created by famo1 on 9/13/16.
  */
 public abstract class Tweet {
     private String message;
@@ -44,4 +46,10 @@ public abstract class Tweet {
     public Date getDate() {
         return date;
     }
+
+    @Override
+    public String toString(){
+        return date.toString() + "|" + message;
+    }
 }
+

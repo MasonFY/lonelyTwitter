@@ -15,4 +15,3 @@ public class NormalTweet2 extends Tweet implements Tweetable {
         return Boolean.FALSE;
     }
 }
-}

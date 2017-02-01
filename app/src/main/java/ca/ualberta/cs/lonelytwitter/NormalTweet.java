@@ -3,6 +3,11 @@ package ca.ualberta.cs.lonelytwitter;
 /**
  * Created by watts1 on 9/13/16.
  */
+
+/**
+ * judge the Tweet is a normalTweet or not.
+ * if this a normalTweet, then we should return a Boolean value "False" for isImportant.
+ */
 public class NormalTweet extends Tweet implements Tweetable {
 
     public NormalTweet(String message){
